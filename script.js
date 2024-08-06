@@ -63,6 +63,7 @@ function playGame(){
     console.log(playRound(getHumanChoice(),getComputerChoice()));
     console.log(playRound(getHumanChoice(),getComputerChoice()));
     console.log(playRound(getHumanChoice(),getComputerChoice()));
+    console.log(playRound(getHumanChoice(),getComputerChoice()));
 
     if(humanScore > computerScore){
         return `You scored: ${humanScore}, Computer scored ${computerScore}, Congrats, You Win!`
